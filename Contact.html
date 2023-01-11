@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>S10221801-Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <div id="navbar">
+      <a href="#default" id="logo"><img src="images/hibikiya_logo.png" class = "logos"></a>
+      <div id="navbar-right">
+        <a href="index.html">Home ホームページ</a>
+        <a href="https://www.hibikiya.com.sg/performances">Performances 演奏</a>
+        <a href="About.html">About 約</a>
+        <a class="active" href="Contact.html">Contact コンタクト</a>
+      </div>
+    </div>
+    
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="contacts">
+        <form action="action_page.php">
+      
+          <label for="name">Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="contactnum">Contact Number</label>
+          <input type="text" id="contactnum" name="contactnum" placeholder="Your contact nuber..">
+      
+          <label for="nationality">Nationality</label>
+          <select id="nationality" name="nationality">
+            <option value="Citizen">Citizen</option>
+            <option value="PR">Permanent Resident</option>
+            <option value="Foreigner">Foreigner</option>
+          </select>
+      
+          <label for="subject">Why do you want to join?</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+
+  </body>
+
+  </html>
